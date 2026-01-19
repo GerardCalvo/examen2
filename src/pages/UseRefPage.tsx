@@ -39,6 +39,15 @@ export default function UseRefPage() {
         </ul>
       </div>
 
+      <div className="bg-white rounded-lg shadow-md p-6">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Ventajas</h2>
+        <ul className="list-disc list-inside space-y-2 text-gray-700">
+          <li>Acceso directo al DOM sin necesidad de queries</li>
+          <li>Mejor rendimiento al evitar re-renders innecesarios</li>
+          <li>Persistencia de valores entre renders</li>
+        </ul>
+      </div>
+
       <div className="bg-blue-50 rounded-lg shadow-md p-6">
         <h2 className="text-2xl font-semibold text-blue-900 mb-4">Ejemplo 1: Focus a un input</h2>
         <div className="space-y-4">

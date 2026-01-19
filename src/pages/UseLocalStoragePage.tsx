@@ -21,7 +21,17 @@ export default function UseLocalStoragePage() {
       </div>
 
       <div className="bg-white rounded-lg shadow-md p-6">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">¿Por qué usar-lo?</h2>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">¿Cuándo se utiliza?</h2>
+        <ul className="list-disc list-inside space-y-2 text-gray-700">
+          <li>Persistir preferencias de usuario (tema, idioma, etc.)</li>
+          <li>Guardar datos de formularios entre sesiones</li>
+          <li>Recordar estado de la aplicación (contadores, selecciones)</li>
+          <li>Cualquier dato que deba sobrevivir a recargas de página</li>
+        </ul>
+      </div>
+
+      <div className="bg-white rounded-lg shadow-md p-6">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Ventajas</h2>
         <ul className="list-disc list-inside space-y-2 text-gray-700">
           <li>Persistir datos entre recargas</li>
           <li>Evitar repetir código</li>

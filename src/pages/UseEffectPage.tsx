@@ -39,7 +39,18 @@ export default function UseEffectPage() {
       </div>
 
       <div className="bg-white rounded-lg shadow-md p-6">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Dependencies</h2>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">¿Cuándo se utiliza?</h2>
+        <ul className="list-disc list-inside space-y-2 text-gray-700">
+          <li>Fetch de datos desde APIs</li>
+          <li>Configurar timers o intervals</li>
+          <li>Suscribirse a eventos externos</li>
+          <li>Modificar el DOM directamente</li>
+          <li>Cualquier efecto secundario que deba ejecutarse en respuesta a cambios en el estado o props</li>
+        </ul>
+      </div>
+
+      <div className="bg-white rounded-lg shadow-md p-6">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Dependencias</h2>
         <ul className="list-disc list-inside space-y-2 text-gray-700">
           <li><code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono">[]</code>: se ejecuta 1 vez (montaje) + cleanup (desmontaje)</li>
           <li><code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono">[x]</code>: se ejecuta cuando cambia <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono">x</code></li>
